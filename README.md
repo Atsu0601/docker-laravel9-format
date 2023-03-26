@@ -29,11 +29,13 @@ phpmyadmin 5.2.0
 Laravel 9
 
 ## Laravelの構成
-初期インストールしているもの
-barryvdh/laravel-debugbar：https://github.com/barryvdh/laravel-debugbar
-doctrine/dbal：https://github.com/doctrine/dbal
-briannesbitt/Carbon：https://github.com/briannesbitt/Carbon
-Laravel Lang：https://laravel-lang.com/installation/
+初期インストールしているもの  
+barryvdh/laravel-debugbar：https://github.com/barryvdh/laravel-debugbar  
+doctrine/dbal：https://github.com/doctrine/dbal  
+briannesbitt/Carbon：https://github.com/briannesbitt/Carbon  
+Laravel Lang：https://laravel-lang.com/installation/  
+Laravel ui
+
 
 ### npmでのインストールなどがうまくいかない場合
 `$ apt update`
