@@ -16,6 +16,36 @@ Laravelに対してマイグレーションやインストールする場合app�
   
 Dockerを停止する  
 `$ docker compose down`  
+
+## サーバー起動とローカル環境の起動
+1. Dockerの起動
+`$ docker-compose up`  
+
+2. Laravelのディレクトリに移動  
+`$ docker-compose exec app bash`  
+
+3. サーバ内のディレクトリ移動  
+`$ cd docker-laravel9`  
+
+4. ローカル環境起動（vite）
+`$ npm run dev`  
+
+5. 起動確認
+> dev
+> vite
+>
+>  VITE v4.2.1  ready in 1001 ms
+>
+>  ➜  Local:   http://localhost:5173/
+>  ➜  Network: http://192.168.48.3:5173/
+>  ➜  press h to show help
+>
+>  LARAVEL v9.52.4  plugin v0.7.4
+>
+>  ➜  APP_URL: http://localhost:81
+上記が表示されたら、起動完了になります。
+
+本番用にビルドする場合は、`npm run build`になります。
   
 WEB：http://localhost:81/  
 phpmyadmin：http://localhost:8080/  
