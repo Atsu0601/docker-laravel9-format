@@ -1,5 +1,4 @@
-# docker-laravel9-format  
-Laravel9が動くdockerのフォーマット環境（m1 mac）  
+# LaravelでヘッドレスCMS
 
 ## 操作手順  
 Docekrをインストール・Dockerを起動させる  
@@ -25,12 +24,15 @@ Dockerを停止する
 `$ docker-compose exec app bash`  
 
 3. サーバ内のディレクトリ移動  
-`$ cd docker-laravel9`  
+`$ cd headless-cms`  
 
 4. ローカル環境起動（vite）
 `$ npm run dev`  
 
-5. 起動確認
+localhost:80が起動しない場合は、 
+`$ docker-compose up -d --build` でイメージを再構築
+
+1. 起動確認
 > dev
 > vite
 >
