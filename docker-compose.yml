@@ -17,7 +17,7 @@ services:
     # dockerfileで作成したイメージを元にコンテナをビルドするということ
     build: ./docker/app
     # コンテナの名前を別途指定
-    container_name: headless-cms-app
+    container_name: app
     # volumeの設定。ローカルの./srcディレクトリからコンテナ内のアプリへアクセスできる様になる。
     volumes:
       - ./src:/var/www/html
@@ -28,7 +28,7 @@ services:
   db:
     # Docker HubからMySQL最新版の公式イメージをダウンロードしてくる指定
     image: mysql:8.0.30
-    container_name: headless-cms-db
+    container_name: db
 
     # コンテナ内の環境変数を指定
     environment:

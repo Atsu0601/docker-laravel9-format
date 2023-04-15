@@ -1,4 +1,4 @@
-# LaravelでヘッドレスCMS
+# Laravel9のDockerのフォーマットファイル
 
 ## 操作手順  
 Docekrをインストール・Dockerを起動させる  
@@ -26,7 +26,7 @@ Dockerを停止する
 3. サーバ内のディレクトリ移動  
 `$ cd headless-cms`  
 
-4. ローカル環境起動（vite）
+4. ローカル環境起動（vite）  
 `$ npm run dev`  
 
 localhost:80が起動しない場合は、 
