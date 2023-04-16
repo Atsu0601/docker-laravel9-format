@@ -68,6 +68,12 @@ briannesbitt/Carbon：https://github.com/briannesbitt/Carbon
 Laravel Lang：https://laravel-lang.com/installation/  
 Laravel ui
 
+## 初期設定項目
+言語ファイルのjaを追加済み
+sass
+管理者用のログイン追加
+
+
 ### DBの設定変更  
 docker-compose.ymlのファイルと.envファイルのDBの接続先の情報は、
 同じになるように.envファイルのファイル名を変更。
